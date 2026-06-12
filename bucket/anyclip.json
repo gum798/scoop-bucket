@@ -1,0 +1,30 @@
+{
+    "version": "1.1.0",
+    "description": "LAN clipboard sync between two computers (native C# build)",
+    "homepage": "https://github.com/gum798/AnyClip",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gum798/AnyClip/releases/download/v1.1.0/AnyClip-v1.1.0-windows-x64-native.zip",
+            "hash": "d0ec88afbcdd3ff99234a799d27565a6b0f1580fe6bf33adcee903fe369cdf7c"
+        }
+    },
+    "bin": "AnyClip.exe",
+    "shortcuts": [
+        [
+            "AnyClip.exe",
+            "AnyClip"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/gum798/AnyClip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gum798/AnyClip/releases/download/v$version/AnyClip-v$version-windows-x64-native.zip"
+            }
+        }
+    },
+    "notes": "First run: enter the shared token from your other device. SmartScreen may warn once (unsigned binary)."
+}
