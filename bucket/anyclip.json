@@ -1,12 +1,12 @@
 {
-    "version": "1.1.13",
+    "version": "1.1.14",
     "description": "LAN clipboard sync between two computers (native C# build)",
     "homepage": "https://github.com/gum798/AnyClip",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gum798/AnyClip/releases/download/v1.1.13/AnyClip-v1.1.13-windows-x64-native.zip",
-            "hash": "0a04899cae3ecc77023265e675974f7ee493a15b25d8011083fba6e88bc99f73"
+            "url": "https://github.com/gum798/AnyClip/releases/download/v1.1.14/AnyClip-v1.1.14-windows-x64-native.zip",
+            "hash": "69e42ce01f64449e79f83ba155b03d6203d6f72b8ed56c39d24f668c44993225"
         }
     },
     "bin": "AnyClip.exe",
